@@ -15,6 +15,7 @@ public class DMKeyMouse extends DMPlug {
         return Dispatch.call(DMPlug.com, "KeyPress", vkCode).getInt()==1;
     }
 
+
     public static boolean keyDown(int vkCode) {
         return Dispatch.call(DMPlug.com, "KeyDown", vkCode).getInt()==1;
     }

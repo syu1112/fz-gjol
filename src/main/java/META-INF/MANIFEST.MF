@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+com.fz.gjol.Main-Class: com.fz.gjol.Main
+
